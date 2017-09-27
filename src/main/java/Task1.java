@@ -112,7 +112,7 @@ public class Task1 extends Application {
         final TextField nameVideo = new TextField(item.snippet.title);
         nameVideo.setTranslateX(300);
         nameVideo.setTranslateY(50);
-
+        
         final TextField nameChanel = new TextField(item.snippet.channelTitle);
         nameChanel.setTranslateX(300);
         nameChanel.setTranslateY(100);
