@@ -13,17 +13,17 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
-/*Создать JavaFX приложение в окне которого есть:
-поле для ввода текста
-кнопка - search. При нажатии очищаются предыдущие результаты поиска(если есть) и загружаются новые в асинхронном потоке.
-Программа должна использовать YouTube API для отображения результатов поиска видео.
+/*Create a JavaFX application in the window which has:
+text input field
+button - search. Clicking clears the previous search results (if any) and loads new ones in the asynchronous stream.
+The program must use the YouTube API to display video search results.
 
-В результатах должно содержаться:
-Название видео
-Название канала
-Дата публикации
-Кнопка - View. При нажатии на которую воспроизводиться видео в окне программы.
-В результатах поиска добавляется 5-ый элемент - изображение из видео (thumbnails)
+The results should contain:
+Video title
+Channel name
+Date of publication
+Button - View. When you click on a video in the program window.
+In the search results, the 5th element is added - an image from the video (thumbnails)
 */
 import java.io.IOException;
 
